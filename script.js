@@ -1,15 +1,12 @@
 let arr = [8, 3, 9, 2, 5];
 
-// function cariArray(input, result) {
-//   if (arr.includes(input)) {
-//     res
-//     return result;
-//   } else {
-//   }
-// }
-function cariArray(arr, result) {
-  if (arr) {
+function cariArray(arr, input) {
+  if (arr !== "number") {
+    return "inputan harus number";
+  }
+  for (let i = 0; i < arr.length; i++) {
+    return i;
   }
 }
 
-console.log(cariArray());
+console.log(cariArray(arr, 3));
