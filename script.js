@@ -7,7 +7,7 @@ let arr = [8, 3, 9, 2, 5];
 //   } else {
 //   }
 // }
-function cariArray(input, result) {
+function cariArray(arr, result) {
   if (arr) {
   }
 }
